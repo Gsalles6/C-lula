@@ -1,0 +1,240 @@
+
+
+
+#titulo{
+    background-color: rgb(228, 227, 227);
+    background-size: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    width: 400px;
+}
+
+#titulo2{
+    background-color: rgb(228, 227, 227);
+    background-size: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    width: 400px;
+}
+
+#titulo3{
+    background-color: rgb(228, 227, 227);
+    background-size: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    width: 400px;
+}
+#titulo4{
+    background-color: rgb(228, 227, 227);
+    background-size: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    width: 400px;
+}
+
+#titulo5{
+    background-color: rgb(228, 227, 227);
+    background-size: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    width: 400px;
+}
+
+body{
+    background-image: url(../imagem/fundo2.jpg);
+    background-size: cover;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+#frase{
+    font-family:'Courier New', Courier, monospace;
+    height: 50px;
+    width: 340px;
+    font-size: 25px;
+    position: relative;
+    top: 150px;
+    left: 70px; 
+    font-weight: bold;
+}
+
+#imagem{
+    position: relative;
+	left: 0px;  
+	top: 30px; 
+}
+
+#imagem2{
+    position: relative;
+	left: 0px;  
+	top: 0px; 
+}
+
+
+#legenda{
+    position: relative;
+	left: 390px;  
+	top: 20px; 
+    font-size: 15px;
+    
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer a {
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
+
+.geral{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* padding: 0 150px 150px 150px; */
+    text-align: justify;
+    width: 100%;
+    
+}
+
+
+.geral section{
+    padding: 1rem;
+    background-color: rgb(228, 227, 227); 
+    margin: 1rem;
+}
+
+.geral section img{
+    display:block;
+    margin: 0 auto;
+}
+.geral2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* padding: 0 150px 150px 150px; */
+    text-align: justify;
+    width: 100%;
+}
+
+.geral2 section{
+    padding: 1rem;
+    background-color: rgb(228, 227, 227); 
+    margin: 1rem;
+}
+
+.geral2 section img{
+    display:block;
+    margin: 0 auto;
+}
+
+.geral3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* padding: 0 150px 150px 150px; */
+    text-align: justify;
+    width: 100%;
+}
+
+.geral3 section{
+    padding: 1rem;
+    background-color: rgb(228, 227, 227); 
+    margin: 1rem;
+}
+
+.geral3 section img{
+    display:block;
+    margin: 0 auto;
+}
+
+.geral4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* padding: 0 150px 150px 150px; */
+    text-align: justify;
+    width: 100%;
+}
+
+.geral4 section{
+    padding: 1rem;
+    background-color: rgb(228, 227, 227); 
+    margin: 1rem;
+}
+
+.geral4 section img{
+    display:block;
+    margin: 0 auto;
+}
+
+.img-container{
+    width: 100%;
+
+}
+
+div{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    /* .container{
+        /* display: block; */
+        /* background-image: none; 
+
+    } */
+
+    /* .imagem{
+        width: 50vw;
+    } */
+
+
+    
+} 
+
+@media (max-width: 378px) {
+   /* .container{
+         display: block; */
+        /* background-image: none; 
+
+    }
+
+    /* .imagem{
+        width: 50vw;
+    } */
+    
+    .img-container{
+        width: 100%;
+        
+    
+    }
+} 
